@@ -1,3 +1,18 @@
+h1 {
+	text-align: center;
+	background-color: crimson;
+	margin-top: 0%; 
+}
+
+ul {
+	background-color: lightcoral;
+	width: 40%;
+}
+
 img {
 	width: 300px;
+}
+
+article {
+	margin-left: 10%;
 }
