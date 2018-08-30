@@ -1,12 +1,22 @@
+body {
+	margin: 0px;
+	font-size: 120%;
+}
+
 h1 {
 	text-align: center;
 	background-color: crimson;
 	margin-top: 0%; 
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 
 nav {
 	background-color: lightcoral;
 	width: 20em;
+	position: fixed;
+	top: 4rem;
 }
 
 nav ul {
@@ -21,6 +31,10 @@ img {
 
 article {
 	margin-left: 3em;
+	min-width: 30rem;
+	max-width: 50rem;
+	margin: auto;
+	margin-top: 30%;
 }
 
 table {
